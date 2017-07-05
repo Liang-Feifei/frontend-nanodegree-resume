@@ -147,7 +147,7 @@ function initializeMap() {
     // the locations array. Note that forEach is used for array iteration
     // as described in the Udacity FEND Style Guide:
     // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
-    education.school.forEach(function(school){
+    education.schools.forEach(function(school){
       locations.push(school.location);
     });
 
